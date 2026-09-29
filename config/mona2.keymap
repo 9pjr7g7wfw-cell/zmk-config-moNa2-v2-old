@@ -102,6 +102,69 @@
             bindings = <&kp LANG2 &kp LS(S) &kp LS(A) &kp S &kp N0 &kp N5 &kp N1 &kp N3 &kp N0 &kp N8 &kp RET>;
             label = "TO_LAYER_0";
         };
+
+        Pass_Remote_Login: Pass_Remote_Login {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LANG2 &kp LS(G) &kp B &kp N0 &kp N5 &kp N1 &kp N3 &kp N0 &kp N8 &kp RET>;
+            label = "PASS_REMOTE_LOGIN";
+        };
+
+        Pass_Pascal: Pass_Pascal {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LANG2 &kp N1 &kp N2 &kp N1 &kp N0 &kp N0 &kp N2 &kp TAB &kp N0 &kp N1 &kp N1 &kp N1 &kp N7 &kp N0 &kp N3 &kp N0 &kp TAB &kp N0 &kp N1 &kp N1 &kp N1 &kp N7 &kp N0 &kp N3 &kp N0 &kp RET>;
+            label = "PASS_PASCAL";
+        };
+
+        Pass_Expart: Pass_Expart {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LANG2 &kp U &kp S &kp E &kp R &kp N2 &kp N4 &kp TAB &kp LS(Z) &kp LS(T) &kp LS(G) &kp LS(E) &kp LS(N) &kp LS(P) &kp LS(S) &kp LS(Y) &kp ENTER>;
+            label = "PASS_EXPART";
+        };
+
+        Pass_43zei: Pass_43zei {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LANG2 &kp N4 &kp N3 &kp Z &kp E &kp I &kp AT &kp RET>;
+            label = "PASS_43ZEI";
+        };
+
+        Pass_toukiTS078: Pass_toukiTS078 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LANG2 &kp T &kp O &kp U &kp K &kp I &kp LS(T) &kp LS(S) &kp N0 &kp N7 &kp N8 &kp RET>;
+            label = "PASS_TOUKITS078";
+        };
+
+        Pass_touki_renkeisystem: Pass_touki_renkeisystem {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LANG2 &kp LS(E) &kp LS(A) &kp N9 &kp N9 &kp N5 &kp N8 &kp N5 &kp TAB &kp S &kp MINUS &kp N0 &kp N1 &kp N1 &kp N1 &kp N7 &kp N0 &kp N3 &kp N0 &kp N1 &kp N1 &kp N0 &kp N5 &kp RET>;
+            label = "PASS_TOUKI_RENKEISYSTEM";
+        };
+
+        Pass_gaiyousyo: Pass_gaiyousyo {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LANG2 &kp T &kp O &kp U &kp B &kp U &kp N0 &kp N1 &kp TAB &kp T &kp O &kp U &kp B &kp U &kp N0 &kp N1 &kp RET>;
+            label = "PASS_GAIYOUSYO";
+        };
+
+        Pass_zeimusystem_syokai: Pass_zeimusystem {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LANG2 &kp N0 &kp N1 &kp N1 &kp N1 &kp N7 &kp N0 &kp N3 &kp N0 &kp TAB &kp N0 &kp N1 &kp N1 &kp N1 &kp N7 &kp N0 &kp N3 &kp N0 &kp RET>;
+            label = "PASS_ZEIMUSYSTEM";
+        };
+
+        Pass_zeimusystem_2: Pass_zeimusystem_2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LANG2 &kp N0 &kp N1 &kp N1 &kp N1 &kp N7 &kp N0 &kp N3 &kp N0 &kp RET>;
+            label = "PASS_ZEIMUSYSTEM_2";
+        };
     };
 
     behaviors {
