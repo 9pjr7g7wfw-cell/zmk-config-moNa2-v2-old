@@ -79,7 +79,7 @@
             key-positions = <11 12>;
         };
 
-        Layer6 {
+        Layer6seni {
             bindings = <&mo 6>;
             key-positions = <18 19>;
         };
