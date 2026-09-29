@@ -24,14 +24,54 @@
     combos {
         compatible = "zmk,combos";
 
-        layer4_ESC {
-            bindings = <&lt 4 ESC>;
-            key-positions = <39 38>;
+        tab_Right {
+            bindings = <&kp LC(TAB)>;
+            key-positions = <19 20>;
         };
 
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <11 12>;
+        tab_Left {
+            bindings = <&kp LS(LC(TAB))>;
+            key-positions = <16 17>;
+        };
+
+        kakudai {
+            bindings = <&kp LC(KP_PLUS)>;
+            key-positions = <36 35>;
+        };
+
+        syukusyou {
+            bindings = <&kp LC(KP_MINUS)>;
+            key-positions = <22 23>;
+        };
+
+        LeftClick {
+            bindings = <&mkp MB1>;
+            key-positions = <17 18>;
+        };
+
+        RightClick {
+            bindings = <&mkp MB2>;
+            key-positions = <17 19>;
+        };
+
+        MiddleClick {
+            bindings = <&mkp MB3>;
+            key-positions = <17 18 19>;
+        };
+
+        kasoudesktop {
+            bindings = <&kp LG(TAB)>;
+            key-positions = <1 2>;
+        };
+
+        susumu {
+            bindings = <&kp LA(RIGHT)>;
+            key-positions = <30 31>;
+        };
+
+        modoru {
+            bindings = <&kp LA(LEFT)>;
+            key-positions = <29 30>;
         };
     };
 
