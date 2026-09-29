@@ -73,6 +73,11 @@
             bindings = <&kp LA(LEFT)>;
             key-positions = <29 30>;
         };
+
+        Enter {
+            bindings = <&kp ENTER>;
+            key-positions = <11 12>;
+        };
     };
 
     macros {
