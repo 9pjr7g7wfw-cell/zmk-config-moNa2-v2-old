@@ -96,10 +96,10 @@
     };
 
     macros {
-        to_layer_0: to_layer_0 {
-            compatible = "zmk,behavior-macro-one-param";
-            #binding-cells = <1>;
-            bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
+        Pass_Login: to_layer_0 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LANG2 &kp LS(S) &kp LS(A) &kp S &kp N0 &kp N5 &kp N1 &kp N3 &kp N0 &kp N8 &kp RET>;
             label = "TO_LAYER_0";
         };
     };
@@ -108,7 +108,7 @@
         lt_to_layer_0: lt_to_layer_0 {
             compatible = "zmk,behavior-hold-tap";
             label = "LAYER_TAP_TO_0";
-            bindings = <&mo>, <&to_layer_0>;
+            bindings = <&mo>, <&Pass_Login>;
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
