@@ -78,6 +78,21 @@
             bindings = <&kp ENTER>;
             key-positions = <11 12>;
         };
+
+        Layer6 {
+            bindings = <&mo 6>;
+            key-positions = <18 19>;
+        };
+
+        Del {
+            bindings = <&kp DEL>;
+            key-positions = <3 2>;
+        };
+
+        Tab {
+            bindings = <&kp TAB>;
+            key-positions = <13 12>;
+        };
     };
 
     macros {
